@@ -37,8 +37,6 @@ router.get('/getCustomerData/:id', function(req, res, next) {
         if (!error) {
             var data = result.entries;
             res.json(data);
-        } else {
-            res.json(error);
         }
     });
 });
