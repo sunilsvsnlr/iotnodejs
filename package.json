@@ -1,0 +1,21 @@
+{
+    "name": "iotnodeapp",
+    "version": "1.0.0",
+    "description": "iot node app ",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "angular": "^1.7.7",
+        "azure-storage": "^2.10.2",
+        "body-parser": "^1.18.3",
+        "bootstrap": "^3.4.1",
+        "dateformat": "^3.0.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "npm": "^6.8.0",
+        "to": "^0.2.9",
+        "update": "^0.7.4"
+    }
+}
